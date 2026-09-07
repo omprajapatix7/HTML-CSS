@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie_Nest</title>
+
+    <style>
+        * {
+            background-color: #0b0f14;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+
+        .top {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid rgb(52, 74, 29);
+            margin-top: 15px;
+        }
+
+        .top img {
+            width: 150px;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 25px;
+            color: rgb(230, 11, 11);
+        }
+
+        #searchbox {
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+        }
+
+
+        #searchbutton {
+            width: 65px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: red;
+            color: white;
+        }
+
+
+        hr {
+            border: 1px solid gray;
+        }
+
+
+        /* Movie Poster 1 */
+
+        .poster1 img {
+            width: 100%;
+            height: 450px;
+        }
+
+
+        .web1 a {
+            color: aqua;
+            position: absolute;
+            top: 50%;
+            left: 4%;
+            width: 150px;
+            height: 50px;
+            text-decoration: none;
+        }
+
+
+        /* Movie Poster 2 */
+
+        .poster2 img {
+            width: 100%;
+            height: 450px;
+        }
+
+
+        .content2 button {
+            background-color: orange;
+            position: absolute;
+            top: 140%;
+            left: 4%;
+            width: 150px;
+            height: 50px;
+        }
+
+
+        /* Footer */
+
+        footer {
+            text-align: center;
+            color: aqua;
+            margin: 30px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- MAIN -->
+
+    <div class="main">
+
+        <!-- HEADER -->
+
+        <div class="top">
+            <img src="./logo.png" alt="logo">
+            <nav>
+                <a href="Home.html" target="_top">Home</a>
+                <a href="Movies.html" target="_blank">Movies</a>
+                <a href="Web series.html" target="_blank">Web Series</a>
+                <a href="About.html" target="_blank">About</a>
+                <a href="Contact.html" target="_blank">Contact</a>
+                <input type="text" id="searchbox" placeholder="Enter Name">
+                <button id="searchbutton">
+                    Search
+                </button>
+            </nav>
+        </div>
+        <br>
+        <hr>
+
+        <!-- MOVIE POSTER 1 -->
+
+        <div class="poster1">
+            <img src="./dom1.jpg" alt="Movie Poster">
+            <div class="web1">
+                <a href="./web1.html" target="_blank">
+                    Click Here
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <!-- MOVIE POSTER 2 -->
+
+        <div class="poster2">
+            <img src="poster2.jpg" alt="Movie Poster">
+            <div class="content2">
+                <button>
+                    Watch Now ▶
+                </button>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- FOOTER -->
+
+        <footer>
+            &copy; Movie_Nest, All Rights Reserved
+            <br><br>
+            Designed & Developed by Om Prajapati
+            <br>
+            B.Tech CSE | Darshan University
+            <br>
+            All Content is for Educational Purpose Only
+        </footer>
+    </div>
+</body>
+
+</html>
