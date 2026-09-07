@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movies</title>
+    <style>
+        * {
+            background-color: #0b0f14;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+
+        .top {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid rgb(52, 74, 29);
+            margin-top: 15px;
+        }
+
+        .top img {
+            width: 150px;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 25px;
+            color: red;
+        }
+
+        #searchbox {
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+        }
+
+        #searchbutton {
+            width: 65px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: red;
+            color: white;
+        }
+
+        hr {
+            border: 1px solid gray;
+        }
+
+        /* Movie Rows */
+
+        .row1,
+        .row2,
+        .row3,
+        .row4,
+        .row5 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        /* Movie Card */
+
+        .card {
+            width: 212px;
+            margin: 25px;
+            text-align: center;
+        }
+
+        .card img {
+            height: 250px;
+            width: 212px;
+            border-radius: 8px;
+            border: 2px solid white;
+        }
+
+        .web1 a {
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            width: 100px;
+            height: 40px;
+            margin-top: 20px;
+        }
+
+        .card p {
+            color: aquamarine;
+            font-size: 18px;
+            margin: 8px;
+        }
+
+        .part {
+            color: orange !important;
+            font-size: 15px !important;
+        }
+
+        /* Footer */
+
+        footer {
+            text-align: center;
+            color: aqua;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MAIN -->
+
+    <div class="container">
+
+
+        <!-- HEADER -->
+
+        <div class="top">
+            <img src="./logo.png" alt="logo">
+            <nav>
+                <a href="Home.html" target="_blank">Home</a>
+                <a href="Movies.html" target="_blank">Movies</a>
+                <a href="Web series.html" target="_blank">Web Series</a>
+                <a href="About.html" target="_blank">About</a>
+                <a href="Contact.html" target="_blank">Contact</a>
+                <input type="text" id="searchbox" placeholder="Enter Name">
+                <button id="searchbutton">Search</button>
+            </nav>
+        </div>
+        <br>
+        <hr>
+        <main>
+            <!-- ROW 1  -->
+
+            <div class="row1">
+                <div class="card">
+                    <img src="1ab.webp" alt="Avengers Doomsday">
+                    <p>Avengers: Doomsday</p>
+                    <p>2026</p>
+
+                    <div class="web1">
+                        <a href="./web1.html" target="_blank">
+                            Click Here
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="2a.jpg" alt="Avengers Secret Wars">
+                    <p> Avengers: Secret Wars</p>
+                    <p> 2027</p>
+                </div>
+
+
+                <div class="card">
+                    <img src="3a.jpg" alt="X-Men">
+                    <p> X-Men </p>
+                    <p> 2028 </p>
+                </div>
+
+
+                <div class="card">
+                    <img src="4a.jpg" alt="Ghost Rider">
+                    <p> Ghost Rider</p>
+                    <p> 2028</p>
+                </div>
+                <div class="card">
+                    <img src="5a.jpg" alt="Black Panther 3">
+                    <p>
+                        Black Panther 3
+                    </p>
+                    <p>
+                        2028
+                    </p>
+                </div>
+            </div>
+
+            <!-- ROW 2 -->
+
+            <div class="row2">
+
+                <div class="card">
+                    <img src="3.jpg" alt="Movie">
+                    <p>
+                        2025
+                    </p>
+                    <p>
+                        marvel
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="4.jpg" alt="Movie">
+                    <p>
+                        2025
+                    </p>
+                    <p>
+                        marvel
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="5.jpg" alt="Movie">
+                    <p>
+                        2025
+                    </p>
+                    <p>
+                        marvel
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="6.jpg" alt="Movie">
+                    <p>
+                        2025
+                    </p>
+                    <p>
+                        marvel
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="7.jpg" alt="Movie">
+                    <p>
+                        2025
+                    </p>
+                    <p>
+                        marvel
+                    </p>
+                </div>
+            </div>
+
+            <!-- ROW 3 -->
+
+            <div class="row3">
+
+                <div class="card">
+                    <img src="8.jpg" alt="Interstellar">
+                    <p>
+                        Interstellar
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="9.jpg" alt="Inception">
+                    <p>
+                        Inception
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="10.jpg" alt="Avatar">
+                    <p>
+                        Avatar
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="11.jpg" alt="The Matrix">
+                    <p>
+                        The Matrix
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="12.jpg" alt="Avengers Endgame">
+                    <p>
+                        Avengers: Endgame
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- ROW 4  -->
+
+            <div class="row4">
+
+                <div class="card">
+
+                    <img src="13.jpg" alt="Blade Runner 2049">
+                    <p>
+                        Blade Runner 2049
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="14.jpg" alt="Tenet">
+                    <p>
+                        Tenet
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="15.jpg" alt="Arrival">
+                    <p>
+                        Arrival
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="16.jpg" alt="Dune">
+                    <p>
+                        Dune
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+
+                <div class="card">
+
+                    <img src="17.jpg" alt="Jurassic Park">
+                    <p>
+                        Jurassic Park
+                    </p>
+                    <p>
+                        Sci-Fi
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>.
+            &copy; Movie_Nest, All Rights Reserved
+            <br><br>
+            Designed & Developed by Om Prajapati
+            <br>
+            B.Tech CSE | Darshan University
+            <br>
+            All Content is for Educational Purpose Only
+        </footer>
+    </div>
+</body>
+
+</html>
